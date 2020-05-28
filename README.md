@@ -1,2 +1,3 @@
-# Miro1.0
- Miro1.0 开源GIS组件库
+# Miro
+ Miro 基于Vue、Openlayers、turf的 开源GIS组件库
+
