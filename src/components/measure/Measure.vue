@@ -76,7 +76,7 @@
 			if (this.list.length>0) {
 				 let n=this.list
 				 this.data=n.slice(0,8)
-				 let total=n.length%this.size>0?n.length/this.size+n.length%this.size:n.length/this.size;
+				 let total=n.length%this.size>0?n.length/this.size+1:n.length/this.size;
 			    this.$refs.page.init(n.length,this.size)
 			}
 		},
